@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Furniture.test</title>
+  </head>
+  <body>
+    <header id="top">
+      <div class="container">
+        <div class="navigation">
+          <div class="contacts">
+            <p class="contacts-text">Ми в соціальних мережах:</p>
+            <a href="#">
+              <img src="./images/telegram.svg" alt="telegram icon" />
+            </a>
+            <a href="#">
+              <img src="./images/facebook.svg" alt="facebook icon" />
+            </a>
+            <a href="#">
+              <img src="./images/instagram.svg" alt="instagram icon" />
+            </a>
+            <div class="select-wrap">
+              <select name="phone" id="phones">
+                <option selected value="(099) 111 22 33">
+                  <a href="tel:+380991112233">(099) 111 22 33</a>
+                </option>
+                <option value="(098) 222 33 44">
+                  <a href="tel:+380982223344">(098) 222 33 44</a>
+                </option>
+                <option value="(093) 333 44 55">
+                  <a href="tel:+380933334455">(093) 333 44 55</a>
+                </option>
+              </select>
+            </div>
+          </div>
+          <nav>
+            <ul class="nav-group">
+              <li class="nav-group-item">
+                <a href="#">Головна</a>
+              </li>
+              <li class="nav-group-item">
+                <a href="#category">Акції</a>
+              </li>
+              <li class="nav-group-item">
+                <a href="#delivery">Доставка та оплата</a>
+              </li>
+              <li class="nav-group-item">
+                <a href="#about">Про нас</a>
+              </li>
+              <li class="nav-group-item">
+                <a href="#advice">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="products">
+          <div class="product">
+            <ul class="product-group">
+              <li class="product-group-item">
+                <a class="product-item" href="#">Дивани</a>
+                <ul>
+                  <li><a href="#">Прямі</a></li>
+                  <li><a href="#">Кутові</a></li>
+                  <li><a href="#">Острівні</a></li>
+                </ul>
+              </li>
+              <li class="product-group-item">
+                <a class="product-item" href="#">Ліжка</a>
+                <ul>
+                  <li><a href="#">Дерев'яні</a></li>
+                  <li><a href="#">Металеві</a></li>
+                  <li><a href="#">М'які</a></li>
+                  <li><a href="#">Подіуми</a></li>
+                  <li><a href="#">Трансформери</a></li>
+                </ul>
+              </li>
+              <li class="product-group-item">
+                <a class="product-item" href="#">Крісла</a>
+                <ul>
+                  <li><a href="#">Крісла-ліжка</a></li>
+                  <li><a href="#">М'які</a></li>
+                </ul>
+              </li>
+              <li class="product-group-item">
+                <a class="product-item" href="#">Комоди</a>
+                <ul>
+                  <li><a href="#">Кухонні</a></li>
+                  <li><a href="#">Для ванної</a></li>
+                </ul>
+              </li>
+              <li class="product-group-item">
+                <a class="product-item" href="#">Шафи</a>
+                <ul>
+                  <li><a href="#">2-х дверні</a></li>
+                  <li><a href="#">3-х дверні</a></li>
+                  <li><a href="#">4-х дверні</a></li>
+                  <li><a href="#">5-х дверні</a></li>
+                </ul>
+              </li>
+              <li class="product-group-item">
+                <a class="product-item" href="#">Кухні</a>
+                <ul>
+                  <li><a href="#">Модульні</a></li>
+                  <li><a href="#">Кухонні гарнітури</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="logo">
+            <img src="./images/logo.svg" alt="site logo" />
+            <h1><span>F</span>urniture.test</h1>
+          </div>
+          <div class="request">
+            <div class="backet">Кошик</div>
+            <button class="call">Замовити дзвінок</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="new-product">
+      <div class="slider">
+        <div class="slide">
+          <div class="slide-decor"></div>
+          <h3 class="slide-new">Новинка!</h3>
+          <h2 class="slide-title">Ліжко Ornella</h2>
+          <p class="slide-descr">Це новий рівень комфортного сну</p>
+          <button class="slide-more">Детальніше</button>
+          <p class="slide-counter"></p>
+        </div>
+        <div class="slide">
+          <div class="slide-decor"></div>
+          <h3 class="slide-new">Новинка!</h3>
+          <h2 class="slide-title">Ліжко Ornella 2</h2>
+          <p class="slide-descr">Це новий рівень комфортного сну</p>
+          <button class="slide-more">Детальніше</button>
+          <p class="slide-counter"></p>
+        </div>
+        <div class="slide">
+          <div class="slide-decor"></div>
+          <h3 class="slide-new">Новинка!</h3>
+          <h2 class="slide-title">Ліжко Ornella 3</h2>
+          <p class="slide-descr">Це новий рівень комфортного сну</p>
+          <button class="slide-more">Детальніше</button>
+          <p class="slide-counter"></p>
+        </div>
+        <div class="slide">
+          <div class="slide-decor"></div>
+          <h3 class="slide-new">Новинка!</h3>
+          <h2 class="slide-title">Ліжко Ornella 4</h2>
+          <p class="slide-descr">Це новий рівень комфортного сну</p>
+          <button class="slide-more">Детальніше</button>
+          <p class="slide-counter"><span>01</span>/04</p>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <h2 class="features-title" id="delivery">
+          <span class="features-title-decor"></span>
+          Наші переваги
+        </h2>
+        <div class="features-wrap">
+          <div class="feature-item feature-item-1">
+            <h3 class="feature-item-title">Меблі преміум класу</h3>
+            <p class="feature-item-descr">
+              За 14 років на ринку меблів для дому ми стали надійними партнерами
+              на ринку Вінницької області та України
+            </p>
+          </div>
+          <div class="feature-item feature-item-2">
+            <h3 class="feature-item-title">Надійність</h3>
+            <p class="feature-item-descr">
+              За 14 років на ринку меблів для дому ми стали надійними партнерами
+              на ринку Вінницької області та України
+            </p>
+          </div>
+          <div class="feature-item feature-item-3">
+            <h3 class="feature-item-title">Безкоштовна доставка</h3>
+            <p class="feature-item-descr">
+              За 14 років на ринку меблів для дому ми стали надійними партнерами
+              на ринку Вінницької області та України
+            </p>
+          </div>
+          <div class="feature-item feature-item-2">
+            <h3 class="feature-item-title">Надійність</h3>
+            <p class="feature-item-descr">
+              За 14 років на ринку меблів для дому ми стали надійними партнерами
+              на ринку Вінницької області та України
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="container">
+        <h2 class="categories-title" id="category">
+          <span class="categories-decor"></span>
+          Категорії товарів
+        </h2>
+        <div class="categories-wrap">
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/sofas.svg" alt="sofa icon" />
+            </div>
+            <h3 class="category-item-title">Дивани</h3>
+          </div>
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/beds.svg" alt="bed icon" />
+            </div>
+            <h3 class="category-item-title">Ліжка</h3>
+          </div>
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/chairs.svg" alt="chair icon" />
+            </div>
+            <h3 class="category-item-title">Крісла</h3>
+          </div>
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/commodes.svg" alt="commode icon" />
+            </div>
+            <h3 class="category-item-title">Комоди</h3>
+          </div>
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/wardrobe.svg" alt="wardrobe icon" />
+            </div>
+            <h3 class="category-item-title">Шафи</h3>
+          </div>
+          <div class="category-item">
+            <div class="category-item-img">
+              <img class="hover-fill" src="./images/kitchen.svg" alt="kitchen icon" />
+            </div>
+            <h3 class="category-item-title">Кухня</h3>
+          </div>
+        </div>
+        <div class="product-category-wrap">
+          <div class="product-category-item">
+            <div class="product-item">
+              <div class="product-category-photo product-category-photo-1">
+                <span class="product-category-main">Новинка</span>
+              </div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-category-item">
+            <div class="product-item">
+              <div class="product-category-photo product-category-photo-2">
+                <span class="product-category-main">Хіт продаж</span>
+                <span class="product-category-action">Акція</span>
+              </div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price product-price-new">8 999 грн</p>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-category-item">
+            <div class="product-item">
+              <div
+                class="product-category-photo product-category-photo-3"
+              ></div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-category-item">
+            <div class="product-item">
+              <div class="product-category-photo product-category-photo-4">
+                <span class="product-category-main">Новинка</span>
+              </div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-category-item">
+            <div class="product-item">
+              <div
+                class="product-category-photo product-category-photo-5"
+              ></div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-category-item">
+            <div class="product-item">
+              <div class="product-category-photo product-category-photo-6">
+                <span class="product-category-main">Хіт продаж</span>
+                <span class="product-category-action">Акція</span>
+              </div>
+              <div class="product-category-about">
+                <h3 class="product-name">Ліжко Рамона</h3>
+                <p class="product-price product-price-new">8 999 грн</p>
+                <p class="product-price">8 999 грн</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-catalog">
+          <button class="catalog">В каталог</button>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="about-title" id="about">
+        <span class="about-decor"></span>Про нас
+      </h2>
+      <div class="about-wrap">
+        <div class="about-text">
+          <span class="about-text-decor"></span>
+          <p>
+            <span>"Furniture"</span> – "Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum."
+          </p>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="advice">
+      <h2 class="advice-title" id="advice">
+        <span class="advice-decor"></span>
+        Залишились питання?
+      </h2>
+      <div class="advice-wrap">
+        <form class="advice-form">
+          <span class="form-decor"></span>
+          <h3 class="form-title">Замовте консультацію</h3>
+          <p class="input">
+            <input type="text" placeholder="Ім'я" />
+          </p>
+          <p class="input">
+            <input type="tel" placeholder="Номер телефону" />
+          </p>
+          <p class="input">
+            <button type="button" class="send">Відправити</button>
+          </p>
+          <p class="form-descr">
+            Залиште заявку або телефонуйте за номером
+            <span>(099) 111 22 33</span>, і наш менеджер звяжеться з вами для
+            кваліфікованої консультації.
+          </p>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <a class="scroll" href="#top">
+        &uarr;
+      </a>
+      <div class="footer-text">
+        <div class="footer-logo">
+          <div class="image-wrap">
+            <a href="#">
+              <img src="./images/logo-footer.svg" alt="site logo" />
+            </a>
+          </div>
+          <h2>
+            <a href="#"><span>F</span>urniture.test</a>
+          </h2>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-products">
+            <li class="footer-product-item">
+              <a href="#">Дивани</a>
+            </li>
+            <li class="footer-product-item">
+              <a href="#">Ліжка</a>
+            </li>
+            <li class="footer-product-item">
+              <a href="#">Крісла</a>
+            </li>
+            <li class="footer-product-item">
+              <a href="#">Шафи</a>
+            </li>
+            <li class="footer-product-item">
+              <a href="#">Кухні</a>
+            </li>
+            <li class="footer-product-item">
+              <a href="#">Комоди</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a href="#">Акції</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#">Доставка та оплата</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#">Про нас</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="pin">Test</p>
+          <p class="work">Пн-Пт, з 10 до 18</p>
+          <p class="tel">
+            (099) 111 22 33 <br />
+            (099) 222 33 44
+          </p>
+          <div class="social">
+            <p>Ми в соціальних мережах</p>
+            <div class="icons">
+              <a href="#">
+                <img src="./images/telegram-w.svg" alt="telegram icon" />
+              </a>
+              <a href="#">
+                <img src="./images/facebook-w.svg" alt="facebook icon" />
+              </a>
+              <a href="#">
+                <img src="./images/instagram-w.svg" alt="instagram icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="copy">
+          <p class="copywrite">© ТОВ Furniture, працюємо з 2006 року</p>
+          <p class="make">
+            <img src="./images/glyanec.svg" alt="glyanec icon">
+            Глянець — розробка інтернет-магазинів</p>
+        </div>
+      </div>
+      <div class="footer-image"></div>
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/hover.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./scripts/sliders.js"></script>
+  </body>
+</html>
